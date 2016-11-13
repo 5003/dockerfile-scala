@@ -1,3 +1,4 @@
+FROM 5003/scala:2.12.x
 RUN apk add --no-cache --virtual .builder curl \
                                           tar && \
     curl --location https://dl.bintray.com/sbt/native-packages/sbt/0.13.13/sbt-0.13.13.tgz \
